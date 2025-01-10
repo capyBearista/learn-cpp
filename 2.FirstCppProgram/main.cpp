@@ -5,7 +5,7 @@ int main()
 {
     cout << "Hello there!" << endl;
 
-    // variable braced initialization
+    /****variable braced initialization****/
     int a;    // stores random garbage value
     int b{};    // initializes to 0
     int c{5};    // initializes to 5
