@@ -31,3 +31,8 @@
 *.exe
 *.out
 *.app
+
+# ADDED BY ME
+# VSCode compile files
+*.ilk
+*.pdb
