@@ -33,6 +33,7 @@
 *.app
 
 # ADDED BY ME
-# VSCode compile files
+# VSCode files
 *.ilk
 *.pdb
+.vscode
