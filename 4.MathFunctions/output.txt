@@ -1,0 +1,12 @@
+FLOOR applied to 7.7 is: 7
+CEIL applied to 7.7 is: 8
+ABS applied to -5000 is: 5000
+EXP -- e ^ 10: 22026.5
+POW -- 2 ^ 5 = 32
+POW -- 9 ^ 2 = 81
+LOG -- if e ^ 4 = 54.598, then log(e)54.598 = 4
+LOG 10 -- if 10 ^ 3 = 1000, then log(10)1000 = 3
+SQRT of 64 = 8
+ROUND applied to 3.654 is: 4
+ROUND applied to 2.5 is: 3
+ROUND applied to 2.4 is: 2
