@@ -1,0 +1,4 @@
+
+using IF statement, max = 35
+
+using TERNARY OPERATOR statement, max = 35
