@@ -1,0 +1,15 @@
+message[]: Helloðøÿ[©
+message[] element count: 5
+
+message[] WITH null terminator: Hello
+message[] element count: 6
+
+message[] WITH auto-filled null terminator: Hello
+message[] element count: 6
+
+message[] WITH literal C string: Hello
+message[] element count: 6
+
+message[] WITH literal C string with spaces: Hello World!
+message[] element count: 13
+
