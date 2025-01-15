@@ -1,0 +1,15 @@
+scores[] element count: 9
+scores[0] = 10
+scores[1] = 12
+scores[2] = 15
+scores[3] = 11
+scores[4] = 19
+scores[5] = 17
+scores[6] = 22
+scores[7] = 23
+scores[8] = 24
+
+Size of scores[] (in bytes): 36
+Size of scores[0]: 4
+scores[] element count: 9
+Sum = 153
