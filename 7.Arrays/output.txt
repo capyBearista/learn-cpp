@@ -1,0 +1,14 @@
+
+grades[0] = 80.5
+grades[1] = 92.23
+grades[2] = 68.4
+grades[3] = 97.8
+grades[4] = 74.75
+grades[5] = 2.122e-314
+
+testArr[0] = 0
+testArr[1] = 1
+testArr[2] = 0
+
+(using for-each loop) sum = 100
+(using for loop) sum = 100
