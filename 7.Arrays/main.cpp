@@ -39,10 +39,8 @@ int main()
    
     // the for loop version of the for-each loop above would be...
     sum = 0;
-    // need to calculate size of the array
-    int n = sizeof(addends) / sizeof(addends[0]);
-
-    for (int i = 0; i < n; i++) {
+    
+    for (int i = 0; i < size(addends); i++) {
         sum += addends[i];
     }
     cout << "\n(using for loop) sum = " << sum;
