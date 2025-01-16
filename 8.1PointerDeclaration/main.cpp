@@ -57,5 +57,24 @@ int main()
     cout << test2 << "\n";    // will print 0
     cout << test3 << "\n";    // will print 0
 
+    cout << "\n";
+
+    // assigning data to pointer variables
+    int int_var1 = 55;
+    int *p_int_var1 = &int_var1;    // & <-- address-of operator
+
+    cout << "int_var1 = " << int_var1 << "\n";
+    cout << "p_int_var1 (address of int_var1) = " << p_int_var1 << "\n";
+
+    int int_var2 = 65;
+    p_int_var1 = &int_var2;
+
+    cout << "p_int_var1 (address of int_var2) = " << p_int_var1 << "\n";
+
+    // cannot assign a variable to a pointer of a different type
+    int *p_int8 = nullptr;
+    double double_var1 = 11;
+    // p_int8 = &double_var1;    <-- compile error
+
     return 0;
 }
