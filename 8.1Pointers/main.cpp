@@ -76,5 +76,13 @@ int main()
     double double_var1 = 11;
     // p_int8 = &double_var1;    <-- compile error
 
+    cout << "\n";
+
+    // dereferencing
+    int *p_int9 = nullptr;
+    int int4 = 123;
+    p_int9 = &int4;    // p_int9 assigned mem address of int4
+    cout << *p_int9 << "\n";    // dereferencing p_int9 to access value of int4
+
     return 0;
 }

@@ -1,0 +1,25 @@
+Size of p_int (pointer): 8
+Size of int: 4
+
+Size of p_double (pointer): 8
+Size of int: 8
+
+Size of p_int1 (pointer): 8
+Size of int: 4
+
+Size of p_double1 (pointer): 8
+Size of int: 8
+
+0xa6555ff6ec
+0xa6555ff6e8
+10
+20
+0x25352fe7e20
+0
+0
+
+int_var1 = 55
+p_int_var1 (address of int_var1) = 0xa6555ff6e4
+p_int_var1 (address of int_var2) = 0xa6555ff6e0
+
+123
