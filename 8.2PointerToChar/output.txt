@@ -1,0 +1,5 @@
+p_message1 = Hello World!
+*p_message1 = H
+
+message2 = Hello there!
+message2 = Tello there!
