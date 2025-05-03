@@ -5,29 +5,23 @@ using namespace std;
 
 int main () {
 
-    cout << "Welcome!\nFile name: ";
-
-    string userFile;
-    getline(cin, userFile);
+    cout << "Welcome! Opening testfile.txt...\n";
 
     ifstream inFile;
-
-    inFile.open(userFile);
-    
+    inFile.open("testfile.txt");
     if (inFile.fail()) {
         cout << "Failed to open :(\n";
         return 1;
     } else {
         cout << "File successfully created and opened :)\n";
     }
-    string myText;
-    getline(inFile, myText);
 
-    do {
-        getline(inFile, myText);
+    string myText{};
+
+    while(getline(inFile, myText)) {
         cout << myText << "\n";
-        
-    } while(!inFile.eof());
+        // getline(inFile, myText);
+    }
 
     inFile.close();
 
